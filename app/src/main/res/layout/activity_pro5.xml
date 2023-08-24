@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pro5">
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="77dp"
+        android:text="'"
+        android:background="#558B2F"
+        app:layout_constraintStart_toEndOf="@+id/textView40"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="41dp"
+        android:text="'"
+        android:background="@color/purple_200"
+        app:layout_constraintStart_toEndOf="@+id/textView39"
+        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="41dp"
+        android:text="'"
+        android:background="#283593"
+        app:layout_constraintStart_toEndOf="@+id/textView38"
+        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="145dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="133dp"
+        android:text="S - L - XL - XXL"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="283dp"
+        android:layout_height="299dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/backpro5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/p5" />
+
+    <ImageView
+        android:id="@+id/backpro5"
+        android:layout_width="58dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="89dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="285dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="27dp"
+        android:text="Summer Short dress with many size and color"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="77dp"
+        android:text="'"
+        android:background="#EF6C00"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <Button
+        android:id="@+id/btnpro5"
+        android:layout_width="235dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="36dp"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView41" />
+</androidx.constraintlayout.widget.ConstraintLayout>

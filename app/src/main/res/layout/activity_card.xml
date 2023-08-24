@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".card"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="205dp"
+        android:layout_height="194dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="190dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/shoppingg" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="170dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="428dp"
+        android:layout_marginEnd="109dp"
+        android:background="#6DE8B6CC"
+        android:text="Your Card  !"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/twe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="twitter"
+        android:textColor="#1565C0"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/face" />
+
+    <TextView
+        android:id="@+id/insta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="instagram"
+        android:textColor="#1565C0"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+    <TextView
+        android:id="@+id/face"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="facebook"
+        android:textColor="#1565C0"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/insta" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="572dp"
+        android:text="our accounts :"
+        android:textColor="#283593"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

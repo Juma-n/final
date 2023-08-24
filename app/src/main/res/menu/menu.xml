@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/it1"
+        android:title="Rating"
+
+        ></item>
+
+    <item android:id="@+id/it2"
+        android:title="contact us"
+        >
+
+        <menu>
+            <item android:id="@+id/sub1"
+                android:title="facebook"
+                ></item>
+            <item android:id="@+id/sub2"
+                android:title="instagram"
+                ></item>
+            <item android:id="@+id/sub3"
+                android:title="twitter"
+                ></item>
+        </menu>
+
+    </item>
+
+    <item android:id="@+id/it3"
+        android:title="sections"
+        >
+
+        <menu>
+            <item android:id="@+id/sub11"
+                android:title="women"
+                ></item>
+            <item android:id="@+id/sub22"
+                android:title="children"
+                ></item>
+            <item android:id="@+id/sub33"
+                android:title="men"
+                ></item>
+        </menu>
+
+    </item>
+
+
+
+</menu>

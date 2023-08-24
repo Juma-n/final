@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shoseFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <Button
+                android:id="@+id/men5"
+                android:layout_width="174dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="30dp"
+                android:text="show"
+                app:layout_constraintStart_toEndOf="@+id/imageView9"
+                app:layout_constraintTop_toBottomOf="@+id/textView51"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="9dp"
+                android:text="price : 20$"
+                android:textColor="#E10E0E"
+                android:textSize="17dp"
+                app:layout_constraintStart_toEndOf="@+id/imageView9"
+                app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="171dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="114dp"
+                android:text="Nice collection of shoses"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/imageView9"
+                app:layout_constraintTop_toBottomOf="@+id/men4" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="199dp"
+                android:layout_height="227dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/sh6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+
+            <Button
+                android:id="@+id/men3"
+                android:layout_width="174dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="19dp"
+                android:text="show"
+                app:layout_constraintStart_toEndOf="@+id/imageView13"
+                app:layout_constraintTop_toBottomOf="@+id/textView62"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="7dp"
+                android:text="price : 20$"
+                android:textColor="#E10E0E"
+                android:textSize="17dp"
+                app:layout_constraintStart_toEndOf="@+id/imageView17"
+                app:layout_constraintTop_toBottomOf="@+id/textView63" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="171dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="124dp"
+                android:text="Nice collection of shoses"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/imageView17"
+                app:layout_constraintTop_toBottomOf="@+id/men3" />
+
+            <Button
+                android:id="@+id/men4"
+                android:layout_width="174dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:text="show"
+                app:layout_constraintStart_toEndOf="@+id/imageView17"
+                app:layout_constraintTop_toBottomOf="@+id/textView64"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="1dp"
+                android:text="price : 20$"
+                android:textColor="#EF0C0C"
+                android:textSize="17dp"
+                app:layout_constraintStart_toEndOf="@+id/imageView13"
+                app:layout_constraintTop_toBottomOf="@+id/textView61" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="171dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="111dp"
+                android:text="Nice collection of shoses"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/imageView13"
+                app:layout_constraintTop_toBottomOf="@+id/men2" />
+
+            <Button
+                android:id="@+id/men2"
+                android:layout_width="174dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="show"
+                app:layout_constraintStart_toEndOf="@+id/imageView12"
+                app:layout_constraintTop_toBottomOf="@+id/textView60"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="price : 20$"
+                android:textColor="#E41010"
+                android:textSize="17dp"
+                app:layout_constraintStart_toEndOf="@+id/imageView12"
+                app:layout_constraintTop_toBottomOf="@+id/textView59" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="171dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="124dp"
+                android:text="Nice collection of shoses"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/imageView12"
+                app:layout_constraintTop_toBottomOf="@+id/men1" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="190dp"
+                android:layout_height="203dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="77dp"
+                android:src="@drawable/sh1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="192dp"
+                android:layout_height="212dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/sh5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="197dp"
+                android:layout_height="208dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/sh6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="198dp"
+                android:layout_height="232dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="29dp"
+                android:src="@drawable/sh8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="171dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="146dp"
+                android:text="Nice collection of shoses"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/imageView11"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="price : 20$"
+                android:textColor="#C31313"
+                android:textSize="17dp"
+                app:layout_constraintStart_toEndOf="@+id/imageView11"
+                app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+            <Button
+                android:id="@+id/men1"
+                android:layout_width="174dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="25dp"
+                android:text="show"
+                app:layout_constraintStart_toEndOf="@+id/imageView11"
+                app:layout_constraintTop_toBottomOf="@+id/textView58"
+                tools:ignore="TouchTargetSizeCheck" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    </ScrollView>
+</FrameLayout>

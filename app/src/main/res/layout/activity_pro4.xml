@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pro4">
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="63dp"
+        android:text="'"
+        android:background="#BA517F"
+        app:layout_constraintStart_toEndOf="@+id/textView46"
+        app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="40dp"
+        android:text="'"
+        android:background="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/textView45"
+        app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="40dp"
+        android:text="'"
+        android:background="#0277BD"        app:layout_constraintStart_toEndOf="@+id/textView44"
+        app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="142dp"
+        android:layout_marginEnd="142dp"
+        android:text="XS-S-L-XL-XXL"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="316dp"
+        android:layout_height="288dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="33dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/backpro4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/p4" />
+
+    <ImageView
+        android:id="@+id/backpro4"
+        android:layout_width="46dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="86dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="58dp"
+        android:text="Long dress with differents  colors"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="63dp"
+        android:text="'"
+        android:background="#4527A0"        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+    <Button
+        android:id="@+id/btnpro4"
+        android:layout_width="232dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="88dp"
+        android:text="add to card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView46" />
+</androidx.constraintlayout.widget.ConstraintLayout>
